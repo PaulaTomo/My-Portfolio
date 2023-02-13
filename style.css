@@ -40,13 +40,13 @@ a:hover{color:#dad1d1}
 
 }
 @media screen and (max-width:463px){
-    .container-fluid-home .text-4 {  font-size: 15px;}
+    .container-fluid-home .text-4 {  font-size: 18px;}
     .container-fluid-home .text-2 { font-size: 20px;}
 
 
 }
 @media screen and (max-width:991px){
-    a{color: #dad1d1; font-size: 20px; padding: 20px;font-weight: bold;}
+    a{color: #dad1d1; font-size: 15px; padding: 15px;font-weight: bold;}
 }
 
 /*HOME*/
