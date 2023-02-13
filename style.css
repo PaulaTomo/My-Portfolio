@@ -62,8 +62,7 @@ a:hover{color:#dad1d1}
 .skill-mf .progress {background-color: rgba(220, 20, 60, 0.308);margin: 12px 0;height: .9rem;border-bottom-right-radius: 30px;border-top-right-radius: 30px;}
 .skill-mf .progress .progress-bar {height: 100%;background-color: crimson;border-bottom-right-radius: 30px;border-top-right-radius: 30px;}
 .title-s , .title-left {font-size:30px; font-weight: 500;text-transform: uppercase;}
-.title-s::first-letter{color: crimson;}
-.title-left::first-letter{color:crimson;}
+
 
 
 
@@ -75,7 +74,6 @@ a:hover{color:#dad1d1}
 /*CONTACT*/
 .contact{color: #868484}
 .contact h1{color:#dad1d1; font-weight:600; }
-.contact h1::first-letter{color:crimson;}
 .social-icons {padding: 12px 22px;right: 0;bottom: 10px;}
 .social-icons a {text-decoration: none; width: 40px; height: 40px; text-align: center; border-radius: 50%; line-height: 35px; margin-right: 10px; display: inline-flex; align-items: center; justify-content: center; transition: .4s ease-in-out; cursor: pointer;}
 .social-icons a i {color:crimson;font-size: 25px;}
