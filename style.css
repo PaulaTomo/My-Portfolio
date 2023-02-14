@@ -61,7 +61,7 @@ a:hover{color:#dad1d1}
 .skill-mf span {color: #818080; font-weight: 600; font-size: 20px;}
 .skill-mf .progress {background-color: rgba(220, 20, 60, 0.308);margin: 12px 0;height: .9rem;border-bottom-right-radius: 30px;border-top-right-radius: 30px;}
 .skill-mf .progress .progress-bar {height: 100%;background-color: crimson;border-bottom-right-radius: 30px;border-top-right-radius: 30px;}
-.title-s , .title-left {font-size:30px; font-weight: 500;text-transform: uppercase;}
+.title-s , .title-left {font-size:25px; font-weight: 500;text-transform: uppercase;}
 
 
 
@@ -73,12 +73,14 @@ a:hover{color:#dad1d1}
 
 /*CONTACT*/
 .contact{color: #868484;}
-.contact h1{color:#dad1d1; font-weight:600; }
+.contact h1{color:#dad1d1; font-weight:600; margin-bottom: 25px;font-size: 20px;}
 .social-icons {padding: 12px 22px;right: 0;bottom: 10px;}
 .social-icons a {text-decoration: none;width: 40px;height: 40px;margin: 10px 0;text-align: center;border: 1px solid crimson;border-radius: 50%;line-height: 35px;display: inline-flex;align-items: center;justify-content: center;transition: .4s ease-in-out;cursor: pointer;}
 .social-icons a i {color:crimson;font-size: 25px;}
 .social-icons a:hover {transform: translateY(-10%);background-color: crimson;}
 .social-icons a:hover i {color: black;}
+.fa-2x {margin-bottom: 8px;}
+
 
 @media screen and (max-width:310px){
     .social-icons a {width: 25px; height: 25px; border: none; margin:0;}
