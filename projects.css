@@ -1,6 +1,6 @@
 
 .section-block.my-projects{min-height:100vh; background-color: black; padding-top: 50px;}
-.section-block.my-projects h2 {text-align: center; font-size:25px;font-weight: 600;color: #e3e3e3;padding-bottom: 50px; text-transform: uppercase;margin-top:50px;}
+.section-block.my-projects h2 {text-align: center; font-size:35px;font-weight: 600;color: #e3e3e3;padding-bottom: 50px; text-transform: uppercase;margin-top:50px;}
 
 
 @media screen and(max-width: 400px) {
