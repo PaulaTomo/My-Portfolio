@@ -72,11 +72,15 @@ a:hover{color:#dad1d1}
 /*About me*/
 
 /*CONTACT*/
-.contact{color: #868484}
+.contact{color: #868484;}
 .contact h1{color:#dad1d1; font-weight:600; }
 .social-icons {padding: 12px 22px;right: 0;bottom: 10px;}
-.social-icons a {text-decoration: none; width: 40px; height: 40px; text-align: center; border-radius: 50%; line-height: 35px; margin-right: 10px; display: inline-flex; align-items: center; justify-content: center; transition: .4s ease-in-out; cursor: pointer;}
+.social-icons a {text-decoration: none;width: 40px;height: 40px;margin: 10px 0;text-align: center;border: 1px solid crimson;border-radius: 50%;line-height: 35px;display: inline-flex;align-items: center;justify-content: center;transition: .4s ease-in-out;cursor: pointer;}
 .social-icons a i {color:crimson;font-size: 25px;}
 .social-icons a:hover {transform: translateY(-10%);background-color: crimson;}
 .social-icons a:hover i {color: black;}
 
+@media screen and (max-width:310px){
+    .social-icons a {width: 25px; height: 25px; border: none; margin:0;}
+    .social-icons a i{font-size: 20px;}
+}
