@@ -4,13 +4,13 @@ body{background-color: black;}
 /*NAVBAR*/
 a{color:crimson;text-decoration: none;font-size: 25px; padding: 10px; font-weight: 600;text-transform: uppercase;}
 .navbar-toggler{background-color: #dad1d1; }
-.navbar-brand img{border-radius: 50%;width:70px;height: 70px; transition: ease-in .2s;}
+.navbar-brand img{border-radius: 50%;width:70px; height: 70px; transition: ease-in .2s;}
 .navbar-brand img:hover{transform: scale(1.2);}
 a:hover{color:#dad1d1}
 /*NAVBAR*/
 
 /*HOME*/
-.container-fluid-home {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 100vh; position: relative; text-align: center; padding: 0 2em;color: #dad1d1;}
+.container-fluid-home {display: -webkit-box;   -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center;  align-items: center; height: 100vh; position: relative; text-align: center; padding: 0 2em;color: #dad1d1;}
 .container-fluid-home img{border:solid 1px crimson; border-radius: 50% ; width: 200px;height: 200px;margin-top: 15px;cursor: pointer }
 .container-fluid-home .text-1 {font-size: 25px; position : relative; margin: 25px 0 25px 0;}
 .container-fluid-home .text-2 {position : relative; font-size: 40px; font-weight: 600; margin-left:-3px; }
