@@ -2,7 +2,7 @@
 
 body{background-color: black;}
 /*NAVBAR*/
-a{color:crimson;text-decoration: none;font-size: 25px; padding: 10px; font-weight: 600;text-transform: uppercase;}
+a{color:crimson;text-decoration: none;font-size: 20px; padding: 10px; font-weight: 600;text-transform: uppercase;}
 .navbar-toggler{background-color: #dad1d1; }
 .navbar-brand img{border-radius: 50%;width:70px; height: 70px; transition: ease-in .2s;}
 .navbar-brand img:hover{transform: scale(1.2);}
