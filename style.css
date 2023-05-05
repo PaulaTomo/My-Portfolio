@@ -242,9 +242,9 @@ a:hover {
     padding: 0;
     text-align: center;
     opacity: 0;
-    transform: translateX(-300px);
+    /*transform: translateX(-300px);*/
     transition: all 0.7s ease-out;
-    transition-delay: 0.1s;
+    transition-delay: 0.3s;
 }
 
 .soft-skills li {
