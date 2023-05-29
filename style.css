@@ -378,3 +378,9 @@ a:hover {
     z-index: 9999;
 }
 /*Cursor*/
+@media screen and (max-width: 600px){
+    .circle-cursor{
+        border: none;
+        box-shadow: none;
+    }
+}
