@@ -2,8 +2,10 @@
 
 body {
     background-color: black;
-
 }
+
+
+
 
 /*NAVBAR*/
 a {
@@ -54,7 +56,7 @@ a:hover {
 }
 
 .container-fluid-home img {
-    border: solid 1px crimson;
+    border: solid 2px crimson;
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -197,12 +199,23 @@ a:hover {
 }
 
 .about-img {
+    position: relative;
+    display: inline-block;
     margin: 14px 50px 30px 0;
-    outline: 3px solid rgba(220, 20, 60, 0.85);
-    box-shadow: 0 0 8px 2px rgba(220, 20, 60, 0.87);
-
 
 }
+.img-fluid{
+    opacity: 0;
+    transition: all 0.7s ease-out;
+    transition-delay: 0.3s;
+
+}
+.img-fluid.scroll-animation{
+    opacity: 1;
+    transform: translateY(0);
+    border: solid 4px crimson;
+}
+
 
 .about-mf {
     color: #dad1d1;
@@ -296,7 +309,9 @@ a:hover {
     padding: 12px 22px;
     right: 0;
     bottom: 10px;
+
 }
+
 
 .social-icons a {
     text-decoration: none;
@@ -312,6 +327,7 @@ a:hover {
     justify-content: center;
     transition: .4s ease-in-out;
     cursor: pointer;
+
 }
 
 .social-icons a i {
@@ -348,5 +364,17 @@ a:hover {
 
 /*Cursor*/
 
-
+.circle-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+   border: solid 1px white;
+    box-shadow: 120px 80px 40px 20px #0ff;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    z-index: 9999;
+}
 /*Cursor*/

@@ -1,13 +1,14 @@
 "use strict";
-const softSkillsAnimation = document.querySelectorAll('.soft-skills')
-
+const softSkillsAnimation = document.querySelectorAll('.soft-skills');
+const animationImg = document.querySelectorAll('.img-fluid');
 const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('scroll-animation')
+                entry.target.classList.add('scroll-animation');
             }
             else {
                 entry.target.classList.remove('scroll-animation')
+
             }
 
         })
@@ -15,9 +16,18 @@ const observer = new IntersectionObserver((entries) => {
     { threshold: 0.5
     });
 //
-for (let i = 0; i < softSkillsAnimation.length; i++) {
-    const elements = softSkillsAnimation[i];
-
+softSkillsAnimation.forEach((elements) =>{
     observer.observe(elements);
-}
+});
+animationImg.forEach((elements) => {
+    observer.observe(elements);
+});
+
+
+//cursor
+document.addEventListener('mousemove', function(event) {
+    const circleCursor = document.querySelector('.circle-cursor');
+    circleCursor.style.left = event.clientX + 'px';
+    circleCursor.style.top = event.clientY + 'px';
+});
 

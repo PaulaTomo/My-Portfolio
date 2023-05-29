@@ -38,7 +38,11 @@
     margin: 30px;
     transition: 0.5s;
     background-color: black;
+
 }
+
+
+
 
 .container .card:nth-child(1) .box .content a {
     background: #2196f3;
