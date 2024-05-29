@@ -5,8 +5,6 @@ body {
 }
 
 
-
-
 /*NAVBAR*/
 a {
     color: crimson;
@@ -297,6 +295,7 @@ a:hover {
 /*CONTACT*/
 .contact {
     color: #868484;
+    text-transform: none;
 }
 
 .contact h1 {
